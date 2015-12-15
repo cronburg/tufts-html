@@ -1,0 +1,7 @@
+#!/bin/bash
+root=/h/karl/public_html
+
+# TODO: less space-intensive backup
+cp $root/index.html /h/karl/log/index.html.`date +%s`
+cp $HOME/website/index.html $root/
+
